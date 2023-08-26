@@ -1,0 +1,115 @@
+
+/* Basic styling for the header */
+.header-container {
+  background-color: #7B002F; 
+  color: #555555;
+  padding: 1rem 0;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.header-nav {
+  margin-top: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 1rem; 
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list li a {
+  color: #FFC712;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.nav-list li a:hover {
+  background-color: #8C003B;
+}
+
+/* Styling for the login form */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #555555; 
+}
+
+.login-container {
+  max-width: 25rem;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+  padding: 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+  background-color: #f7f7f7;
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.login-form {
+  margin-bottom: 1.25rem;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 95%;
+  padding: 0.5rem;
+  margin-bottom: 0.625rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem;
+}
+.forgot_password,
+.login-form button {
+  background-color: #7B002F;
+  color: #FFF;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 1rem;
+  align-items:center;
+}
+
+.login-form button:hover {
+  background-color: #8C003B;
+}
+
+/* Styles for the footer */
+
+.footer {
+  background-color: #7B002F;
+  color: #FFF;
+  padding: 1rem;
+  text-align: center;
+  margin-top:100%;
+}
+
+.forgot_password{color:#FFF;}
